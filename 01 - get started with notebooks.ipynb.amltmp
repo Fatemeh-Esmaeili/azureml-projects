@@ -72,19 +72,19 @@
     {
       "cell_type": "code",
       "source": [
-        "pip show azure.ml.ai"
+        "pip show azure-ai-ml\n"
       ],
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
-          "text": "\u001b[33mWARNING: Package(s) not found: azure.ml.ai\u001b[0m\u001b[33m\r\n\u001b[0mNote: you may need to restart the kernel to use updated packages.\n"
+          "text": "Name: azure-ai-ml\r\nVersion: 1.25.0\r\nSummary: Microsoft Azure Machine Learning Client Library for Python\r\nHome-page: https://github.com/Azure/azure-sdk-for-python\r\nAuthor: Microsoft Corporation\r\nAuthor-email: azuresdkengsysadmins@microsoft.com\r\nLicense: MIT License\r\nLocation: /anaconda/envs/azureml_py38/lib/python3.10/site-packages\r\nRequires: azure-common, azure-core, azure-mgmt-core, azure-monitor-opentelemetry, azure-storage-blob, azure-storage-file-datalake, azure-storage-file-share, colorama, isodate, jsonschema, marshmallow, msrest, pydash, pyjwt, pyyaml, strictyaml, tqdm, typing-extensions\r\nRequired-by: \r\nNote: you may need to restart the kernel to use updated packages.\n"
         }
       ],
-      "execution_count": 1,
+      "execution_count": 10,
       "metadata": {
         "gather": {
-          "logged": 1741299866787
+          "logged": 1741299949907
         }
       },
       "id": "724bbce5-73fd-45b6-ac99-95a06376e602"
