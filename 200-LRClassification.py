@@ -3,13 +3,13 @@
 
 import pandas as pd
 
-# load the training dataset
+
 get_ipython().system('wget https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/ml-basics/diabetes.csv')
 diabetes = pd.read_csv('diabetes.csv')
 diabetes.head()
 
 
-# Separate features and labels
+
 features = ['Pregnancies','PlasmaGlucose','DiastolicBloodPressure','TricepsThickness','SerumInsulin','BMI','DiabetesPedigree','Age']
 label = 'Diabetic'
 X, y = diabetes[features].values, diabetes[label].values
